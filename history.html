@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /* background */
+        #background{
+            background-image: url(pics/gtr.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            height: auto;
+        }
+
+        /* navigation */
+        #nav{
+            background-color: rgba(0,0,0,0.2);
+            margin-top: 0px;
+            padding: 10px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+        }
+        ul.navigation{
+            display: flex;
+            width: 100;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        ul.navigation li{
+            display: flex;
+            width: 170px;
+            align-items: center;
+            justify-content: center;
+        }
+        ul.navigation li a{
+            color: white;
+            text-decoration: none;
+            margin-top: 24px;
+            transition: 0.8s;
+            font-size: 200;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 200;
+        }
+        ul.navigation li a:hover,
+        ul li a:active{
+            color: yellow;
+        }
+
+        /* logo */
+        .logo{
+            margin-top: 400px;
+            width: 10rem;
+            height: 12vh;
+            margin-top: 10rem;
+	        line-height: 1.7rem;
+        }
+
+        /* history */
+        .h1{
+            color: white;
+            font-size: 500%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+            padding: 10px;
+        }
+
+        #his-p{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            align-items: center;
+            justify-content: center;
+            font-size: 300%;
+            line-height: 4rem;
+            
+        }
+
+        /* footer */
+        .footer{
+            background-color: rgba(0, 0, 0,0.3);
+            background-attachment: fixed;
+            width: 100;
+            display: flex;
+            align-items: center;
+        }
+        .foot li{
+            display: flex;
+            justify-content: space-around;
+            margin-left:200px ;
+            margin-top: 10px;
+        }
+        .foot li a{
+            color: white;
+            list-style: none;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 300;
+            align-items: center;
+            justify-content: center;
+            text-align: right;
+        }
+        .foot>h1{
+            color: white;
+            font-size: 100px;
+        }
+        
+    </style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body id="background">
+    <div class="container">
+
+        <!--navigation starts here-->
+        <nav id="nav">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="picture.html">Pictures</a></li>
+                <li><a href="Performance.html">Performance</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <h1 class="h1">History</h1>
+    <p id="his-p">Nissan produced the Skyline GT-R between 1969 and 1974, a high-performance version of the Skyline coupe.
+        It featured signature four round tail lights, ATTESA E-TS Pro all-wheel drive, and a twin-turbocharged 6-cylinder engine.
+        However, it removed the HICAS four-wheel-steering system and replaced the straight-6 RB26DETT engine with the VR38DETT.
+        The GT-R retained its predecessor's nickname, Godzilla.</p>
+
+    <h1 class="h1">Development</h1>
+    <p id="his-p">In 2000, Nissan decided to reintroduce the iconic GT-R as part of the Nissan Revival Plan,
+         aiming to increase sales and public attention.
+         CEO Carlos Ghosn aimed for the car to be a strong performance car that could compete with high-performance sports cars from brands like Porsche,
+         Lamborghini, and Ferrari. The design aimed to adapt the signature feature of the GT-R, four round taillights.
+         Designers from Japan, the United States, and Europe began creating new sketches for the GT-R, with 50 of them reaching Nissan's design director, Shiro Nakamura.
+         Chief designer Hiroshi Hasegawa worked for over four years to complete the interior and exterior designs. Kazutoshi Mizuno, chief engineer of the Skyline GT-R R34, was appointed as the chief engineer in January 2004.
+         Aerodynamics development began in early 2004 with a group of best engineers, including Yoshi Suzuka, who selected 12 sketches from various design studios.
+         The finalized models were tested at the Nürburgring and Sendai Hi-Land Raceway.</p>
+    <!--footer starts here-->
+    <footer class="footer">
+        <div class="logo">
+        <img src="pics/logo.png" width="150%">
+        </div>
+        <ul class="foot">
+            <h1>Get In Touch</h1>
+            <li><a href="#"><i class="fa-brands fa-youtube fa-beat"></i>Youtube</a></li>
+            <li><a href="#"><i class="fa-brands fa-google-drive fa-beat"></i>Drive</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

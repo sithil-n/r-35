@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #background{
+            background-image: url(pics/gtr.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            height: auto;
+        }
+        #navigation{
+            background-color: rgba(0,0,0,0.2);
+            height: 80px;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        ul.nav{
+            display: flex;
+            width: 100;
+            align-items: center;
+            justify-content: center;
+        }
+        ul.nav li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+        }
+        ul.nav li a{
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 12px;
+            transition: 0.8s;
+            font-size: 300;
+            font-weight: 200;
+        }
+        ul.li a:hover,
+        ul.li a :active{
+            color: yellow;
+        }
+        #para{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 300%;
+            align-items: center;
+            justify-content: center;
+            line-height: 4rem;
+        }
+        #logo{
+            width: 10rem;
+            height:12vh ;
+            margin-top: 10rem;
+            line-height: 1.7rem;
+        }
+        .footer{
+            background-color: rgba(0,0,0,0.2);
+            margin-top: 39vh;
+            height: 59vh;
+            width: 100;
+            display: flex;
+            align-items: center;
+        }
+        .foot li {
+            margin-left: 200px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .foot li a{
+            color: white;
+            text-decoration: none;
+            list-style:none ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 300;
+            align-items: center;
+            justify-content: center;
+        }
+        .foot>h1{
+            color: white;
+            font-size:100px;
+        }
+    </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body id="background">
+    <div class="container">
+        <nav id="navigation">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="picture.html">Pictures</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+
+        <p id="para">The Nissan GT-R is a luxury sports car that has been in production since 2007.
+            The 2024 model of the GT-R is priced at $122,885 and has a standard twin-turbo 3.8-liter V-6 engine that produces 565 horsepower .
+            The car can accelerate from zero to 60 mph in 2.9 seconds . The GT-R has a reputation for its handling, which seems to defy physics .
+            The car comes with e-adjustable Bilstein dampers and Brembo brakes with carbon-ceramic setups for the performance-focused variants . 
+            Although the GT-R has been updated over the years, it is still based on the same R35-generation coupe that began hitting dealer lots 15 years ago and quickly earned the nickname "Godzilla" .
+            The car's interior lacks refinement and seems crude and rude by today's standards .</p>
+
+        <footer class="footer">
+            <div id="logo">
+                <img src="pics/logo.png" height="150%">
+            </div>
+            <ul class="foot">
+                <h1>Get In Touch</h1>
+                <li><a href="#"><i class="fa-brands fa-youtube fa-beat"></i>Youtube</a></li>
+                <li><a href="#"><i class="fa-brands fa-google-drive fa-beat"></i>Drive</a></li>
+            </ul>
+            
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /* background */
+        #background{
+            background-image: url(pics/gtr.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            height: auto;
+        }
+
+        /* navigation */
+        #nav{
+            background-color: rgba(0,0,0,0.2);
+            margin-top: 0px;
+            padding: 10px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+        }
+        ul.navigation{
+            display: flex;
+            width: 100;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        ul.navigation li{
+            display: flex;
+            width: 170px;
+            align-items: center;
+            justify-content: center;
+        }
+        ul.navigation li a{
+            color: white;
+            text-decoration: none;
+            margin-top: 24px;
+            transition: 0.8s;
+            font-size: 200;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 200;
+        }
+        ul.navigation li a:hover,
+        ul li a:active{
+            color: yellow;
+        }
+
+        /* logo */
+        .logo{
+            margin-top: 400px;
+            width: 10rem;
+            height: 12vh;
+            margin-top: 10rem;
+	        line-height: 1.7rem;
+        }
+
+        /* footer */
+        .footer{
+            background-color: rgba(0, 0, 0,0.3);
+            background-attachment: fixed;
+            margin-top: 39vh;
+            width: 100;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+        }
+        .foot li{
+            display: flex;
+            justify-content: space-around;
+            margin-left:200px ;
+            margin-top: 10px;
+        }
+        .foot li a{
+            color: white;
+            list-style: none;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 300;
+            align-items: center;
+            justify-content: center;
+        }
+        .foot>h1{
+            color: white;
+            font-size: 100px;
+        }
+        
+    </style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body id="background">
+    <div class="container">
+
+        <!--navigation starts here-->
+        <nav id="nav">
+            <ul class="navigation">
+                <li><a href="history.html">History</a></li>
+                <li><a href="picture.html">Pictures</a></li>
+                <li><a href="Performance.html">Performance</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--footer starts here-->
+    <footer class="footer">
+        <div class="logo">
+        <img src="pics/logo.png" width="150%">
+        </div>
+        <ul class="foot">
+            <h1>Get In Touch</h1>
+            <li><a href="#"><i class="fa-brands fa-youtube fa-beat"></i>Youtube</a></li>
+            <li><a href="#"><i class="fa-brands fa-google-drive fa-beat"></i>Drive</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
